@@ -6,7 +6,7 @@ namespace Conversione_numeri_decimali
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Inserisci un numero");
+            Console.WriteLine("Inserisci un numero un");
             int numero = int.Parse(Console.ReadLine());
             Console.WriteLine(Convert.ToString(numero, 2));
             Console.ReadLine();
