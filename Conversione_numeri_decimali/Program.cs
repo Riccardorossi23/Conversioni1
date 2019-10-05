@@ -6,7 +6,10 @@ namespace Conversione_numeri_decimali
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Inserisci un numero");
+            int numero = int.Parse(Console.ReadLine());
+            Console.WriteLine(Convert.ToString(numero, 2));
+            Console.ReadLine();
         }
     }
 }
